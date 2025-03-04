@@ -9,7 +9,7 @@ RUN apt-get update && \
 ARG PG_VERSION=17
 
 RUN apt-get update && \
-    apt-get install -y postgresql-client-${pg_VERSION} bash ncurses-bin && \
+    apt-get install -y postgresql-client-${PG_VERSION} bash ncurses-bin && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
