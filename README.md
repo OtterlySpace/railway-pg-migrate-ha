@@ -8,6 +8,7 @@ Optionally, by setting an environment variable, it can also set up replication b
 
 Deploy this service into your Railway project and configure the required variables:
 
+- `PG_VERSION` - The version of Postgres to use. Defaults to `17`.  
 - `PRIMARY_URL` - URL of the primary node in your cluster.  
 *If you've just deployed the Postgres cluster from the [template in Railway](https://railway.app/template/ha-postgres), the primary node should be `pg-0`.*
 - `STANDALONE_URL` - URL of the standalone Postgres instance.
