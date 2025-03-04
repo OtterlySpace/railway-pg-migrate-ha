@@ -1,6 +1,6 @@
 [build]
 builder = "DOCKERFILE"
-dockerfilePath = "./scripts/Dockerfile"
+dockerfilePath = "./script/Dockerfile"
 
 [deploy]
 restartPolicyType = "NEVER"
